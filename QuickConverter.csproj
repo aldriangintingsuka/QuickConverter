@@ -13,13 +13,14 @@
     <AssemblyOriginatorKeyFile>QuickConverterKey.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>$(AssemblyName)-Multi</PackageId>
-    <VersionPrefix>1.2.5.1</VersionPrefix>
+    <VersionPrefix>1.2.5.2</VersionPrefix>
     <Title>QuickConverter provides you with WPF markup that allows you to write inline converters and multi-bindings using a C# like language directly in your xaml. This package provides additional support for .NET Core.</Title>
     <Authors>Johannes Moersch</Authors>
     <Description>QuickConverter provides you with WPF markup that allows you to write inline converters and multi-bindings using a C# like language directly in your xaml. This package provides additional support for .NET Core.</Description>
     <PackageProjectUrl>https://github.com/aldriangintingsuka/QuickConverter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/aldriangintingsuka/QuickConverter</RepositoryUrl>
     <PackageTags>WPF, xaml, Binding, converter</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <OutputPath>bin\x86\Debug\</OutputPath>
